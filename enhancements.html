@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Enhancements</title>
+	
+	<meta charset="utf-8"/>
+	<meta name="author" content="Gabriel Kong Qi Hao"/>
+	<meta name="description" content=""/>
+	<meta name="Keyword" content=""/>
+	
+	<link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+<header>
+			<div class="logo">
+			<p><img src="images/logo.png" alt="Logo"/></p>
+			</div>
+
+		<!--menu-->
+		<nav id="menu">
+			<label  for="burger">&#9776;</label>
+			<input type="checkbox" id="burger"/>
+			<div id="nav1">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a onclick="dropdownMenu()" class="dropbtn" >Product</a>
+				 <ul id="myDropdown" class="dropdown-menu">
+						<li><a href="city.html">City</a></li>
+						<li><a href="jungle.html">Forest</a></li>
+						<li><a href="sea.html">Sea</a></li>
+						<li><a href="homestay.html">Homestay</a></li>
+				</ul>
+				</li>
+				<li><a href="Enquiry.html" onclick="noroom()">Booking</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="Feedback.html">Feedback</a></li>
+			</ul>
+		</div></nav>
+</header>
+<body>
+<article id="enhancements">
+	<h1>CSS enhancements</h1>
+		<h2>Slidesgow</h2>
+		<img src="images/Slidshow.JPG" alt="Slidesgow"/>
+		<p>The web page have use slideshow for the product page.In css.firstly position the images with 
+		"absolute" after that create a label for the left and right side to let the user change the images.</p>
+		
+		<h2>Google maps</h2>
+		<img src="images/map.jpg" alt="Google maps"/>
+		<p>This enhancment made is to let the user know the location of the room or hotel.
+		Embeded link is taken from google map and paste on the website html.</p>
+		
+		<h2>Animated button</h2>
+		<img src="images/booking.JPG" alt="Animated button"/>
+		<img src="images/knowmore.JPG" alt="Animated button"/>
+		<p>This enhancement is made for the user to booking the room and know more about the room in the product pages. 
+		The animated button is created using ".button:after" in css for creating background 
+		and the background sliding down when the user hover to it.</p>
+		
+		<h2>Effects with toggle button</h2>
+		<img src="images/toggle.jpg" alt="Effects with toggle button"/>
+		<p>This enhancement used in homepage to show the brief information of all diffrents type of rooms. First 
+		insert a images with html and create a check box in side a div with html. second in Css,
+		let the cheack box opaciyi 0 so cent see it in the page and setup a background for the checkbox
+		when it has been checked</p>
+		
+		<h2>Menu Hover effects</h2>
+		<img src="images/menueff.jpg" alt="Menu Hover effects"/>
+		<p>This enchancement is used in the nevigation for all page.The animated button is created using ".button:after" and ".button:before"
+		in css for creating border and the border display none when user hover and change the color of the background.  </p>
+
+
+
+
+
+
+
+</article>
+	<!--Footer-->
+	<footer class="footer">
+		<address class="group">
+			<p>
+			<a href="aboutgroup.html">Developer</a></p>
+			<p>
+			Last Update:
+			</p>
+		</address>
+
+		<section class="fcontact0">
+			<p>Contact Number: <a href="tel:555-6666-555">555-6666-555</a></p>
+			<p>E-mail: <a href="mailto:group1@gmail.com">group1@gmail.com</a></p>
+		</section>
+
+		<section class="fcontact1">
+			<p>
+			<a href="https://www.facebook.com/"><img src="images/fb.png" alt="facebook logo" class="fblogo"/></a>
+			<a href="https://twitter.com/login?lang=en"><img src="images/twitter.png" alt="twitter logo" class="twitterlogo"/></a>
+			<a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo" class="instagramlogo"/></a>
+			</p>
+		</section>
+		<nav class="submenu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="disclaimer.html">Disclaimer</a></li>
+				<li><a href="about.html">about</a></li>
+				<li><a href="Feedback.html">Feedback</a></li>
+				<li><a href="enhancements.html">Enhancements</a></li>
+			</ul>
+		</nav>
+	</footer>
+<script src="script/jvs.js"></script>
+</body>
+</html>
